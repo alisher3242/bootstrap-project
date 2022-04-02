@@ -1,0 +1,461 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poppins-v19-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v19-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/poppins-v19-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v19-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* poppins-600 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('../fonts/poppins-v19-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v19-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/poppins-v19-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v19-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* poppins-800 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+         url('../fonts/poppins-v19-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v19-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* poiret-one-regular - latin */
+@font-face {
+    font-family: 'Poiret One';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/poiret-one-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poiret-one-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* modern-antiqua-regular - latin */
+@font-face {
+    font-family: 'Modern Antiqua';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/modern-antiqua-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/modern-antiqua-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  
+  .container{
+      padding-left: 33px;
+      padding-right: 33px;
+  }
+
+  .header__conainer{
+      padding: 0;
+  }
+
+  .navbar{
+      padding-top: 32px;
+      padding-bottom: 32px;
+  }
+
+  
+  .navbar-brand{
+    font-family: 'Modern Antiqua';
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;    
+  }
+
+  .hero-hedding{
+      max-width: 204px;
+      font-family: Poppins;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: center;      
+  }
+
+  .job{
+      color: rgba(105, 105, 105, 1);
+      font-family: Poppins;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+      max-width: 179px;      
+  }
+
+  .small-job{
+      max-width: 244px;
+      font-family: Poppins;
+      font-size: 10px;
+      font-weight: 500;
+      line-height: 15px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin-bottom: 12px;
+}
+
+.hero{
+    padding-top: 34px;
+    padding-bottom: 20px;
+}
+
+.contact-btn{
+    box-shadow: -4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 37px;
+    padding-right: 37px;
+    margin-bottom: 12px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+@media only screen and (min-width:480px) {
+    .container{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  
+    .header__conainer{
+        padding: 0;
+    }
+  
+    .navbar{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+  
+    
+    .navbar-brand{
+      font-family: 'Modern Antiqua';
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0em;    
+    }
+  
+    .hero-hedding{
+        max-width: 204px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;      
+    }
+  
+    .job{
+        color: rgba(105, 105, 105, 1);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 179px;      
+    }
+  
+    .small-job{
+        max-width: 244px;
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 12px;
+  }
+  
+  .hero{
+      padding-top: 34px;
+      padding-bottom: 20px;
+  }
+  
+  .contact-btn{
+      box-shadow: -4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+      padding-left: 45px;
+      padding-right: 45px;
+      margin-bottom: 12px;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+}
+
+@media only screen and (min-width:576px) {
+    .container{
+        padding-left: 33px;
+        padding-right: 33px;
+        max-width: 766px;
+    }
+  
+    .header__conainer{
+        padding: 0;
+    }
+  
+    .navbar{
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+  
+    
+    .navbar-brand{
+      font-family: 'Modern Antiqua';
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0em;    
+    }
+  
+    .hero-hedding{
+        max-width: 234px;
+        font-family: Poppins;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;  
+        margin-bottom: 10px;    
+    }
+  
+    .job{
+        color: rgba(105, 105, 105, 1);
+        font-family: Poppins;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 179px;      
+    }
+  
+    .small-job{
+        max-width: 244px;
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 12px;
+  }
+  
+  .hero{
+      padding-top: 34px;
+      padding-bottom: 20px;
+  }
+  
+  .contact-btn{
+      box-shadow: -4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+      padding-left: 45px;
+      padding-right: 45px;
+      margin-bottom: 12px;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+}
+
+@media only screen and (min-width:767px) {
+    .container{
+        padding-left: 33px;
+        padding-right: 33px;
+        max-width: 991px;
+    }
+  
+    .header__conainer{
+        padding: 0;
+    }
+  
+    .navbar{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+  
+    
+    .navbar-brand{
+      font-family: 'Modern Antiqua';
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0em;    
+    }
+  
+    .hero-hedding{
+        max-width: 5000px;
+        font-family: Poppins;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;  
+        margin-bottom: 10px;    
+    }
+  
+    .job{
+        color: rgba(105, 105, 105, 1);
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 279px;      
+    }
+  
+    .small-job{
+        max-width: 350px;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 25px;
+  }
+  
+  .hero{
+      padding-top: 59px;
+      padding-bottom: 20px;
+  }
+  
+  .contact-btn{
+      box-shadow: -4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+      padding-left: 45px;
+      padding-right: 45px;
+      margin-bottom: 18px;
+      font-family: Poppins;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 18px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+
+  .hero-img{
+      width: 239px;
+      height: 220px;
+  }
+}
+
+@media only screen and (min-width:992px) {
+    .container{
+        padding-left: 33px;
+        padding-right: 33px;
+        max-width: 1320px;
+    }
+  
+    .header__conainer{
+        padding: 0;
+    }
+  
+    .navbar{
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+  
+    
+    .navbar-brand{
+      font-family: 'Modern Antiqua';
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 23px;
+      letter-spacing: 0em;    
+    }
+  
+    .hero-hedding{
+        max-width: 416px;
+        font-family: Poppins;
+        font-size: 49px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0em;
+        text-align: left;  
+        margin-bottom: 10px;    
+    }
+  
+    .job{
+        color: rgba(105, 105, 105, 1);
+        font-family: Poppins;
+        font-size: 29px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        max-width: 370px;      
+    }
+  
+    .small-job{
+        max-width: 350px;
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 25px;
+        display: none;
+  }
+  
+  .hero{
+      padding-top: 69px;
+      padding-bottom: 70px;
+  }
+  
+  .contact-btn{
+      box-shadow: -4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+      padding-left: 53px;
+      padding-right: 53px;
+      margin-bottom: 0px;
+      font-family: Poppins;
+      font-size: 19px;
+      font-weight: 600;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: left;
+  }
+
+  .hero-img{
+      width: 434px;
+      height: 408px;
+  }
+}
+
