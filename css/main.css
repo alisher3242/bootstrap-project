@@ -167,24 +167,25 @@
     }
   
     .hero-hedding{
-        max-width: 204px;
+        max-width: 274px;
         font-family: Poppins;
-        font-size: 24px;
+        font-size: 27px;
         font-weight: 700;
         line-height: 34px;
         letter-spacing: 0em;
-        text-align: center;      
+        text-align: center;  
+        /* margin-bottom: 10px;     */
     }
   
     .job{
         color: rgba(105, 105, 105, 1);
         font-family: Poppins;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 600;
         line-height: 21px;
         letter-spacing: 0em;
         text-align: left;
-        max-width: 179px;      
+        max-width: 229px;      
     }
   
     .small-job{
